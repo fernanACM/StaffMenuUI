@@ -1,0 +1,101 @@
+name: StaffMenuUI
+main: FlynnKunz\StaffMenuUI\Main
+version: 1.0
+api: 4.0.0
+author: [FlynnKunz, fernanACM]
+
+commands:
+  staffmenu:
+    description: Open StaffMenu
+# sm = staffmenu
+    aliases: [smui, sm, staff, staffmenuui]
+    permission: staffmenuui.cmd
+
+permissions:
+  staffmenuui.cmd:
+    description: Permission To Open StaffMenu
+    default: op
+
+  staffmenuui.gamemode:
+    description: Permission To Open Gamemode Category
+    default: op
+
+  staffmenuui.gamemode-survival:
+    description: Permission To Use Survival Gamemode
+    default: op
+
+  staffmenuui.gamemode-creative:
+    description: Permission To Use Creative Gamemode
+    default: op
+
+  staffmenuui.gamemode-adventure:
+    description: Permission To Use Adventure Gamemode
+    default: op
+
+  staffmenuui.gamemode-spectator:
+    description: Permission To Use Spectator Gamemode
+    default: op
+
+  staffmenuui.vanish:
+    description: Permission To Use Vanish
+    default: op
+
+  staffmenuui.nickname:
+    description: Permission To Open Nickname Category
+    default: op
+
+  staffmenuui.staffchat:
+    description: Permission To Use StaffChat
+    default: op
+
+  staffmenuui.kick:
+    description: Permission To Use Kick
+    default: op
+
+  staffmenuui.ban:
+    description: Permission To Use Ban
+    default: op
+
+  staffmenuui.mute:
+    description: Permission To Open Mute Category
+    default: op
+
+  staffmenuui.mute-muteplayer:
+    description: Permission To Mute Player
+    default: op
+
+  staffmenuui.mute-unmute:
+    description: Permission To Unmute Player
+    default: op
+
+  staffmenuui.mute-editmute:
+    description: Permission To Edit Mute
+    default: op
+
+  staffmenuui.mute-muteinfo:
+    description: Permission To See Mute Info
+    default: op
+
+  staffmenuui.freeze:
+    description: Permission To Open Freeze Category
+    default: op
+
+  staffmenuui.freeze-freeze:
+    description: Permission To Freeze Player
+    default: op
+
+  staffmenuui.freeze-unfreeze:
+    description: Permission To Un Freeze Player
+    default: op
+
+  staffmenuui.invsee:
+    description: Permission To Open InvSee Category
+    default: op
+
+  staffmenuui.invsee-invsee:
+    description: Permission To Use InvSee Command
+    default: op
+
+  staffmenuui.invsee-enderinvsee:
+    description: Permission To Use Ender InvSee
+    default: op
