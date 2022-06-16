@@ -112,7 +112,16 @@ PluginUtils::PlaySound($player, "random.chestopen", 1, 1);
                   } else {
                     $player->sendMessage("You Dont Have Permission To Use This Commands");
                   }
-					case 9:
+     break;
+     case 9:
+if($player->hasPermission("staffmenuui.teleport")){
+       $this->getServer()->getCommandMap()->dispatch($player, "tp");
+PluginUtils::PlaySound($player, "random.pop", 1, 1);
+                  } else {
+                    $player->sendMessage("You Dont Have Permission To Use This Commands");
+                  }
+     break;
+					case 10:
 					break;
 				}
 			}
@@ -128,6 +137,7 @@ PluginUtils::PlaySound($player, "random.chestopen", 1, 1);
   $form->addButton("Mute");
   $form->addButton("Freeze");
   $form->addButton("See Inventory");
+  $form->addButton("Teleport");
 		$form->addButton("Exit");
 		$player->sendForm($form);
 	}
